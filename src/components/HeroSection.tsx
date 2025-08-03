@@ -1,5 +1,5 @@
 
-import { ArrowRight, BookOpen, Users, Award } from "lucide-react";
+import { ArrowRight, Award, Star } from "lucide-react";
 
 const HeroSection = () => {
   const scrollToSection = (sectionId: string) => {
@@ -8,75 +8,64 @@ const HeroSection = () => {
   };
 
   return (
-    <section id="hero" className="min-h-screen bg-gradient-to-br from-blue-50 to-orange-50 pt-20 px-4">
+    <section id="hero" className="min-h-screen bg-background pt-20 px-4">
       <div className="container mx-auto max-w-6xl">
-        <div className="grid md:grid-cols-2 gap-12 items-center min-h-[80vh]">
-          {/* Left Content */}
+        <div className="text-center space-y-8 py-12">
           <div className="space-y-6">
-            <div className="inline-block bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium">
-              🎓 Nurturing Minds Since Foundation
-            </div>
-            
-            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
-              Empowering <span className="text-orange-600">Young Minds</span> for a Brighter Tomorrow
+            <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
+              Welcome to<br />
+              <span className="text-primary">Shakti Shanti Academy</span>
             </h1>
             
-            <p className="text-lg text-gray-600 leading-relaxed">
-              At Shakti Shanti Academy, we believe every child has unlimited potential. Our holistic approach combines academic excellence with character development, creating leaders of tomorrow.
+            <p className="text-lg text-muted-foreground leading-relaxed max-w-4xl mx-auto">
+              Nurturing young minds with excellence in education. We provide a comprehensive learning environment that fosters academic achievement, character development, and lifelong learning.
             </p>
+          </div>
+
+          {/* School Building Image */}
+          <div className="relative rounded-2xl overflow-hidden shadow-2xl max-w-4xl mx-auto">
+            <img 
+              src="/lovable-uploads/68ce78bf-80b2-413d-9177-4328c3754cc1.png" 
+              alt="Shakti Shanti Academy Building"
+              className="w-full h-[400px] md:h-[500px] object-cover"
+            />
             
-            <div className="flex flex-col sm:flex-row gap-4">
+            {/* Award Badge Overlay */}
+            <div className="absolute bottom-6 left-6 bg-card/90 backdrop-blur-sm rounded-xl p-4 border border-border">
+              <div className="flex items-center gap-3">
+                <div className="bg-primary/20 p-2 rounded-lg">
+                  <Star className="text-primary" size={20} />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-card-foreground text-sm">Award Winning</h4>
+                  <p className="text-muted-foreground text-xs">Education Excellence</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="space-y-6">
+            <h2 className="text-2xl md:text-3xl font-bold text-foreground">
+              About Shakti Shanti Academy
+            </h2>
+            <p className="text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+              S.S. Academy is a co-educational institution established on 7th Aug. 1999, run by S.S. Trust Patna (Bihar) and registered under the Trust Registration Act.
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 onClick={() => scrollToSection('about')}
-                className="bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-orange-700 transition-colors flex items-center justify-center gap-2"
+                className="bg-primary text-primary-foreground px-8 py-3 rounded-lg font-semibold hover:bg-primary/90 transition-colors flex items-center justify-center gap-2"
               >
-                Discover Our Mission
+                Learn More
                 <ArrowRight size={20} />
               </button>
               <button
                 onClick={() => scrollToSection('contact')}
-                className="border-2 border-orange-600 text-orange-600 px-8 py-3 rounded-lg font-semibold hover:bg-orange-50 transition-colors"
+                className="border border-border text-foreground px-8 py-3 rounded-lg font-semibold hover:bg-muted transition-colors"
               >
                 Get In Touch
               </button>
-            </div>
-          </div>
-
-          {/* Right Content - Stats */}
-          <div className="space-y-6">
-            <div className="bg-white rounded-2xl p-8 shadow-xl">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Why Choose Us?</h3>
-              <div className="grid grid-cols-1 gap-6">
-                <div className="flex items-center gap-4">
-                  <div className="bg-blue-100 p-3 rounded-lg">
-                    <BookOpen className="text-blue-600" size={24} />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900">Academic Excellence</h4>
-                    <p className="text-gray-600 text-sm">Comprehensive curriculum with modern teaching methods</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-center gap-4">
-                  <div className="bg-green-100 p-3 rounded-lg">
-                    <Users className="text-green-600" size={24} />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900">Small Class Sizes</h4>
-                    <p className="text-gray-600 text-sm">Individual attention for every student</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-center gap-4">
-                  <div className="bg-orange-100 p-3 rounded-lg">
-                    <Award className="text-orange-600" size={24} />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900">Holistic Development</h4>
-                    <p className="text-gray-600 text-sm">Focus on academics, arts, sports, and character building</p>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
