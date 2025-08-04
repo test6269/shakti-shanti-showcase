@@ -3,8 +3,9 @@ import Header from "../components/Header";
 import HeroSection from "../components/HeroSection";
 import AboutSection from "../components/AboutSection";
 import CBSESection from "../components/CBSESection";
+import TeachingPhilosophySection from "../components/TeachingPhilosophySection";
 import TeachingExcellenceSection from "../components/TeachingExcellenceSection";
-import PrimaryEducationSection from "../components/PrimaryEducationSection";
+import EducationLevelsSection from "../components/EducationLevelsSection";
 import ProgramsSection from "../components/ProgramsSection";
 import FacilitiesSection from "../components/FacilitiesSection";
 import OfficeHoursSection from "../components/OfficeHoursSection";
@@ -18,8 +19,9 @@ const Index = () => {
       <HeroSection />
       <AboutSection />
       <CBSESection />
+      <TeachingPhilosophySection />
       <TeachingExcellenceSection />
-      <PrimaryEducationSection />
+      <EducationLevelsSection />
       <ProgramsSection />
       <FacilitiesSection />
       <OfficeHoursSection />

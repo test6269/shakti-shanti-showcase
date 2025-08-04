@@ -1,30 +1,42 @@
-import { GraduationCap, BookOpen, Users, Award } from "lucide-react";
+import { GraduationCap, BookOpen, Users, Award, Target, Heart } from "lucide-react";
 
 const TeachingExcellenceSection = () => {
   const teachingStaff = [
     {
-      icon: <GraduationCap className="text-primary" size={28} />,
+      icon: <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center"><GraduationCap className="text-primary-foreground" size={24} /></div>,
       title: "Principal",
       subtitle: "Overall School Management",
       description: "Educational leadership with expertise in curriculum development and academic excellence."
     },
     {
-      icon: <BookOpen className="text-accent" size={28} />,
+      icon: <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center"><BookOpen className="text-primary-foreground" size={24} /></div>,
       title: "Primary Teachers",
       subtitle: "Classes 1-5 - All Subjects",
       description: "Foundation learning specialists trained in child psychology and early education methods."
     },
     {
-      icon: <Users className="text-secondary" size={28} />,
+      icon: <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center"><Users className="text-primary-foreground" size={24} /></div>,
       title: "Secondary Teachers", 
       subtitle: "Classes 6-10 - Subject Specialists",
       description: "Subject matter experts with advanced degrees in their specialized teaching areas."
     },
     {
-      icon: <Award className="text-primary" size={28} />,
+      icon: <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center"><Users className="text-primary-foreground" size={24} /></div>,
       title: "Senior Secondary Teachers",
       subtitle: "Classes 11-12 - Stream Specialists",
       description: "Advanced subject specialists with expertise in Science, Commerce, and Arts streams."
+    },
+    {
+      icon: <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center"><Target className="text-primary-foreground" size={24} /></div>,
+      title: "Sports Teachers",
+      subtitle: "Physical Education & Sports",
+      description: "Physical education specialists with training in various sports and fitness programs."
+    },
+    {
+      icon: <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center"><Heart className="text-primary-foreground" size={24} /></div>,
+      title: "Arts & Music Teachers",
+      subtitle: "Fine Arts, Music & Dance",
+      description: "Creative arts professionals fostering artistic expression and cultural awareness."
     }
   ];
 

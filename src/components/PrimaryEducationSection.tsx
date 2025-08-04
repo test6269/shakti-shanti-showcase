@@ -1,4 +1,4 @@
-import { BookOpen } from "lucide-react";
+import { BookOpen, Calendar, Beaker, Globe } from "lucide-react";
 
 const PrimaryEducationSection = () => {
   const subjects = [
