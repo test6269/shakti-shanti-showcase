@@ -24,11 +24,6 @@ const FacilitiesSection = () => {
       description: "Basketball courts, football field, indoor gymnasium, and yoga studio."
     },
     {
-      icon: <Utensils className="text-destructive" size={28} />,
-      title: "Cafeteria",
-      description: "Nutritious meals prepared with fresh ingredients in a hygienic environment."
-    },
-    {
       icon: <Bus className="text-accent-foreground" size={28} />,
       title: "Transportation",
       description: "Safe and reliable bus service covering major routes across the city."

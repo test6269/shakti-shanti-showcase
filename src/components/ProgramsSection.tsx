@@ -33,12 +33,6 @@ const ProgramsSection = () => {
       description: "Sports, fitness, yoga, and outdoor adventure activities for holistic development.",
       color: "bg-destructive/20"
     },
-    {
-      icon: <GraduationCap className="text-accent-foreground" size={24} />,
-      title: "Life Skills & Leadership",
-      description: "Character building, leadership development, and practical life skills training.",
-      color: "bg-accent/20"
-    }
   ];
 
   return (

@@ -8,7 +8,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section id="hero" className="min-h-screen bg-background pt-20 px-4">
+    <section id="hero" className="min-h-screen bg-background pt-20 px-4 mb-20">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center space-y-8 py-12">
           <div className="space-y-6">
@@ -52,21 +52,6 @@ const HeroSection = () => {
               S.S. Academy is a co-educational institution established on 7th Aug. 1999, run by S.S. Trust Patna (Bihar) and registered under the Trust Registration Act.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button
-                onClick={() => scrollToSection('about')}
-                className="bg-primary text-primary-foreground px-8 py-3 rounded-lg font-semibold hover:bg-primary/90 transition-colors flex items-center justify-center gap-2"
-              >
-                Learn More
-                <ArrowRight size={20} />
-              </button>
-              <button
-                onClick={() => scrollToSection('contact')}
-                className="border border-border text-foreground px-8 py-3 rounded-lg font-semibold hover:bg-muted transition-colors"
-              >
-                Get In Touch
-              </button>
-            </div>
           </div>
         </div>
       </div>
