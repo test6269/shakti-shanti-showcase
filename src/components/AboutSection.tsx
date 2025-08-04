@@ -5,81 +5,64 @@ const AboutSection = () => {
   return (
     <section id="about" className="py-20 bg-background">
       <div className="container mx-auto max-w-6xl px-4">
-        {/* Section Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4">About Shakti Shanti Academy</h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Founded on the principles of strength (Shakti) and peace (Shanti), our academy is dedicated to nurturing well-rounded individuals who will make a positive impact on the world.
+        {/* School Description */}
+        <div className="mb-16">
+          <p className="text-muted-foreground mb-8 leading-relaxed">
+            Located just 3 km away from Dighwara Railway Station towards the west in the 
+            vicinity of goddess Maa Ambika Bhawani, Ambika Sthan, Ami, Saran (Bihar), the school 
+            began with 80 students and four teaching staff. Today the school has turned from an 
+            ice ball to an avalanche and is affiliated to CBSE, BHARAT, up to 10+2.
           </p>
-        </div>
-
-        {/* Mission, Vision, Values */}
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
-          <div className="text-center group">
-            <div className="bg-primary/20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
-              <Target className="text-primary" size={32} />
-            </div>
-            <h3 className="text-xl font-bold text-foreground mb-3">Our Mission</h3>
-            <p className="text-muted-foreground">
-              To provide quality education that empowers students with knowledge, skills, and values necessary for lifelong learning and responsible citizenship.
-            </p>
-          </div>
-
-          <div className="text-center group">
-            <div className="bg-accent/20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
-              <Lightbulb className="text-accent-foreground" size={32} />
-            </div>
-            <h3 className="text-xl font-bold text-foreground mb-3">Our Vision</h3>
-            <p className="text-muted-foreground">
-              To be a leading educational institution that creates confident, compassionate, and creative individuals who contribute positively to society.
-            </p>
-          </div>
-
-          <div className="text-center group">
-            <div className="bg-secondary/20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
-              <Heart className="text-secondary-foreground" size={32} />
-            </div>
-            <h3 className="text-xl font-bold text-foreground mb-3">Our Values</h3>
-            <p className="text-muted-foreground">
-              Excellence, Integrity, Respect, Innovation, and Community - these core values guide every aspect of our educational approach.
+          
+          <p className="text-muted-foreground mb-8 leading-relaxed">
+            The true essence of SSA lies not in its infrastructure of four walls but its overall 
+            purpose of imparting quality education that includes holistic development of the 
+            personality through physical, emotional, intellectual and spiritual development. We 
+            devote ourselves to nurturing students to excel in all walks of life and become 
+            worthy citizens of the 21st century.
+          </p>
+          
+          <div className="bg-card rounded-xl p-6 border border-border mb-8">
+            <h3 className="text-xl font-semibold text-card-foreground mb-3">School Motto:</h3>
+            <p className="text-muted-foreground italic">
+              "To add the term 'Multi-Talented' before the name of every student of our school. This 'Multi-
+              Talented' would comprise of Education, Physical, Spiritual and Moral intellect."
             </p>
           </div>
         </div>
 
-        {/* Story Section */}
-        <div className="bg-card rounded-2xl p-8 md:p-12 border border-border">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div>
-              <h3 className="text-3xl font-bold text-card-foreground mb-4">Our Story</h3>
-              <p className="text-muted-foreground mb-4">
-                Shakti Shanti Academy was born from a vision to create an educational environment where students can discover their potential while maintaining inner peace and balance.
-              </p>
-              <p className="text-muted-foreground mb-4">
-                We believe that true education goes beyond textbooks - it's about nurturing curious minds, building character, and preparing students for the challenges and opportunities of tomorrow.
-              </p>
-              <p className="text-muted-foreground">
-                Our dedicated faculty and supportive community work together to ensure every student receives the guidance and encouragement they need to thrive.
-              </p>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-muted rounded-lg p-6 text-center">
-                <div className="text-3xl font-bold text-primary mb-2">500+</div>
-                <div className="text-muted-foreground">Students</div>
-              </div>
-              <div className="bg-muted rounded-lg p-6 text-center">
-                <div className="text-3xl font-bold text-primary mb-2">50+</div>
-                <div className="text-muted-foreground">Teachers</div>
-              </div>
-              <div className="bg-muted rounded-lg p-6 text-center">
-                <div className="text-3xl font-bold text-primary mb-2">15+</div>
-                <div className="text-muted-foreground">Years</div>
-              </div>
-              <div className="bg-muted rounded-lg p-6 text-center">
-                <div className="text-3xl font-bold text-primary mb-2">95%</div>
-                <div className="text-muted-foreground">Success Rate</div>
-              </div>
-            </div>
+        {/* Statistics */}
+        <div className="grid md:grid-cols-4 gap-6 mb-16">
+          <div className="text-center">
+            <div className="text-4xl font-bold text-primary mb-2">1800+</div>
+            <div className="text-muted-foreground">Current Students</div>
           </div>
+          <div className="text-center">
+            <div className="text-4xl font-bold text-primary mb-2">81+</div>
+            <div className="text-muted-foreground">Devoted Staff</div>
+          </div>
+          <div className="text-center">
+            <div className="text-4xl font-bold text-primary mb-2">25+</div>
+            <div className="text-muted-foreground">Years Experience</div>
+          </div>
+          <div className="text-center">
+            <div className="text-4xl font-bold text-primary mb-2">I-XII</div>
+            <div className="text-muted-foreground">Classes Offered</div>
+          </div>
+        </div>
+
+        {/* School Motto in Hindi */}
+        <div className="bg-primary rounded-2xl p-12 text-center text-primary-foreground mb-16">
+          <h2 className="text-4xl font-bold">शक्ति शांति</h2>
+        </div>
+
+        {/* Academic Programs Header */}
+        <div className="text-center">
+          <h2 className="text-4xl font-bold text-foreground mb-4">Academic Programs</h2>
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+            Our comprehensive curriculum covers Classes 1-10 + 2 (11-12) with CBSE board 
+            affiliation, providing students with strong academic foundation and holistic development.
+          </p>
         </div>
       </div>
     </section>
