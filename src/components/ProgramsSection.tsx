@@ -1,5 +1,5 @@
 
-import { Palette, Music, Users, Trophy } from "lucide-react";
+import { Palette, Music, Users, Trophy, Target, Heart } from "lucide-react";
 
 const ProgramsSection = () => {
   const programs = [
@@ -49,27 +49,32 @@ const ProgramsSection = () => {
           ))}
         </div>
 
-        {/* Grade Levels */}
+        {/* Teaching Philosophy */}
         <div className="bg-card rounded-2xl p-8 border border-border">
-          <h3 className="text-2xl font-bold text-card-foreground mb-8 text-center">Grade Levels</h3>
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="text-center p-6 bg-primary/10 rounded-xl border border-border">
-              <div className="text-3xl mb-3">🌱</div>
-              <h4 className="text-xl font-semibold text-foreground mb-2">Primary School</h4>
-              <p className="text-muted-foreground mb-3">Grades 1-5</p>
-              <p className="text-sm text-muted-foreground">Foundation building with play-based learning and fundamental skills development.</p>
+          <h3 className="text-2xl font-bold text-card-foreground mb-12 text-center">Our Teaching Philosophy</h3>
+          <div className="space-y-12 max-w-3xl mx-auto">
+            <div className="text-center">
+              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                <Users className="text-primary-foreground" size={32} />
+              </div>
+              <h4 className="text-xl font-semibold text-foreground mb-3">Student-Centered Learning</h4>
+              <p className="text-muted-foreground">Individual attention and personalized learning approaches for every student</p>
             </div>
-            <div className="text-center p-6 bg-accent/10 rounded-xl border border-border">
-              <div className="text-3xl mb-3">🌿</div>
-              <h4 className="text-xl font-semibold text-foreground mb-2">Middle School</h4>
-              <p className="text-muted-foreground mb-3">Grades 6-8</p>
-              <p className="text-sm text-muted-foreground">Advanced concepts introduction with project-based learning and skill specialization.</p>
+            
+            <div className="text-center">
+              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                <Target className="text-primary-foreground" size={32} />
+              </div>
+              <h4 className="text-xl font-semibold text-foreground mb-3">Goal-Oriented Teaching</h4>
+              <p className="text-muted-foreground">Clear learning objectives with regular assessment and progress tracking</p>
             </div>
-            <div className="text-center p-6 bg-secondary/10 rounded-xl border border-border">
-              <div className="text-3xl mb-3">🌳</div>
-              <h4 className="text-xl font-semibold text-foreground mb-2">High School</h4>
-              <p className="text-muted-foreground mb-3">Grades 9-12</p>
-              <p className="text-sm text-muted-foreground">College preparation with advanced placement courses and career guidance.</p>
+            
+            <div className="text-center">
+              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                <Heart className="text-primary-foreground" size={32} />
+              </div>
+              <h4 className="text-xl font-semibold text-foreground mb-3">Holistic Development</h4>
+              <p className="text-muted-foreground">Balance of academic excellence with character building and life skills</p>
             </div>
           </div>
         </div>
