@@ -44,7 +44,7 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <div className="space-y-6">
+          <div className="space-y-3">
             <h2 className="text-2xl md:text-3xl font-bold text-foreground">
               About Shakti Shanti Academy
             </h2>
