@@ -7,7 +7,7 @@ const AboutSection = () => {
       <div className="container mx-auto max-w-6xl px-4">
         {/* School Description */}
         <div className="mb-16">
-          <p className="text-muted-foreground mb-8 leading-relaxed">
+          <p className="text-muted-foreground mb-4 leading-relaxed">
             Located just 3 km away from Dighwara Railway Station towards the west in the 
             vicinity of goddess Maa Ambika Bhawani, Ambika Sthan, Ami, Saran (Bihar), the school 
             began with 80 students and four teaching staff. Today the school has turned from an 
