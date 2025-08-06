@@ -14,6 +14,17 @@ const AboutSection = () => {
             ice ball to an avalanche and is affiliated to CBSE, BHARAT, up to 10+2.
           </p>
           
+          {/* School Uniform Section */}
+          <div className="bg-card rounded-xl p-6 border border-border mb-4">
+            <h3 className="text-xl font-semibold text-card-foreground mb-3">School Uniform</h3>
+            <p className="text-muted-foreground leading-relaxed">
+              Our school maintains a standard dress code that promotes equality and unity among students. 
+              The uniform consists of crisp white shirts, navy blue trousers/skirts, school tie, and 
+              black leather shoes. This creates a sense of belonging and helps students focus on learning 
+              rather than fashion distractions.
+            </p>
+          </div>
+          
           <p className="text-muted-foreground mb-8 leading-relaxed">
             The true essence of SSA lies not in its infrastructure of four walls but its overall 
             purpose of imparting quality education that includes holistic development of the 
