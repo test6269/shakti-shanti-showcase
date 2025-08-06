@@ -21,8 +21,8 @@ const ContactSection = () => {
               
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <div className="bg-primary/20 p-3 rounded-lg flex-shrink-0">
-                    <MapPin className="text-primary" size={24} />
+                  <div className="bg-blue-600 p-3 rounded-lg flex-shrink-0">
+                    <MapPin className="text-white" size={24} />
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Address</h4>
@@ -34,8 +34,8 @@ const ContactSection = () => {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="bg-accent/20 p-3 rounded-lg flex-shrink-0">
-                    <Phone className="text-accent-foreground" size={24} />
+                  <div className="bg-blue-600 p-3 rounded-lg flex-shrink-0">
+                    <Phone className="text-white" size={24} />
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Phone Numbers</h4>
@@ -47,8 +47,8 @@ const ContactSection = () => {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="bg-secondary/20 p-3 rounded-lg flex-shrink-0">
-                    <Mail className="text-secondary-foreground" size={24} />
+                  <div className="bg-blue-600 p-3 rounded-lg flex-shrink-0">
+                    <Mail className="text-white" size={24} />
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Email</h4>
@@ -60,8 +60,8 @@ const ContactSection = () => {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="bg-destructive/20 p-3 rounded-lg flex-shrink-0">
-                    <Clock className="text-destructive" size={24} />
+                  <div className="bg-blue-600 p-3 rounded-lg flex-shrink-0">
+                    <Clock className="text-white" size={24} />
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Office Hours</h4>
