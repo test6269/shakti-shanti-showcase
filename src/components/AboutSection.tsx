@@ -8,18 +8,13 @@ const AboutSection = () => {
         {/* School Description */}
         <div className="mb-16">
           <p className="text-muted-foreground mb-8 leading-relaxed">
-            The true essence of SSA lies not in its infrastructure of four walls but its overall 
-            purpose of imparting quality education that includes holistic development of the 
-            personality through physical, emotional, intellectual and spiritual development. We 
-            devote ourselves to nurturing students to excel in all walks of life and become 
-            worthy citizens of the 21st century.
+            Today the school has turned from an ice ball to an avalanche and is affiliated to CBSE, BHARAT, up to 10+2. We have classes from Std.- I to Std.- XII with a strength of 1800 students and a devoted team of 81 staff. The true essence of SSA lies, not in its infrastructure of four walls but its overall purpose of imparting quality education includes the art of shaping individual's a personality through physical, emotional, intellectual and spiritual development. The school, therefore, devotes itself assiduously to nurturing of students in such a way that they excel in all walks of life, make a mark in every field of human activities and become worthy citizens of 21st century not only infused with qualities of character but also a capability to withstand the onslaught of modern day degeneration of values. The true riches of SSA lies in producing gentle SSAians who are truthful and represent the school motto.
           </p>
           
           <div className="bg-card rounded-xl p-6 border border-border mb-8">
             <h3 className="text-xl font-semibold text-card-foreground mb-3">School Motto:</h3>
             <p className="text-muted-foreground italic">
-              "To add the term 'Multi-Talented' before the name of every student of our school. This 'Multi-
-              Talented' would comprise of Education, Physical, Spiritual and Moral intellect."
+              "To add the term 'Multi-Talented' before the name of every student of our school. This 'Multi-Talented' would comprise of Education, Physical, Spiritual and Moral Intellect."
             </p>
           </div>
         </div>

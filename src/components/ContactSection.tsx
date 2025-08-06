@@ -27,8 +27,7 @@ const ContactSection = () => {
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Address</h4>
                     <p className="text-muted-foreground">
-                      123 Education Street, Knowledge Park,<br />
-                      Learning City - 110001
+                      Ambika Sthan, Ami, Saran (Bihar) - 841207
                     </p>
                   </div>
                 </div>
@@ -53,7 +52,7 @@ const ContactSection = () => {
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Email</h4>
                     <p className="text-muted-foreground">
-                      info@shaktishantiacademy.edu<br />
+                      ssa.ami1998@gmail.com<br />
                       admissions@shaktishantiacademy.edu
                     </p>
                   </div>

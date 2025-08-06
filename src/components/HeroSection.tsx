@@ -49,7 +49,7 @@ const HeroSection = () => {
               About Shakti Shanti Academy
             </h2>
             <p className="text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              S.S. Academy is a co-educational institution established on 7th Aug. 1999, run by S.S. Trust Patna (Bihar) and registered under the Trust Registration Act.
+              This S.S. Academy is a co-educational institution established on 7th Aug. 1999. It is run by S.S. Trust Patna (Bihar) an organization registered under the Trust Registration Act. The school began with 80 students and four teaching staff is just 3 km away from Dighwara Railway Station towards the west in the vicinity of goddess Maa Ambika Bhawani, Ambika Sthan, Ami, Saran.
             </p>
 
           </div>
