@@ -22,7 +22,7 @@ const FacilitiesSection = () => {
       description: "Interactive whiteboards, projectors, and modern educational technology."
     },
     {
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      image: "https://res.cloudinary.com/dlpqbgdax/image/upload/v1754481834/8_idir3u.jpg",
       icon: <TreePine className="text-primary-foreground" size={28} />,
       title: "Sports Complex",
       description: "Basketball courts, football field, indoor gymnasium, and yoga studio."
