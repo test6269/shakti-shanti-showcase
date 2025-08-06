@@ -8,9 +8,9 @@ const HeroSection = () => {
   };
 
   return (
-    <section id="hero" className="min-h-screen bg-background pt-20 px-4 mb-20">
+    <section id="hero" className="bg-background pt-20 px-4">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center space-y-8 py-12">
+        <div className="text-center space-y-8 py-8">
           <div className="space-y-6">
             <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
               Welcome to<br />
