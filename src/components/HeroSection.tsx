@@ -25,7 +25,7 @@ const HeroSection = () => {
           {/* School Building Image */}
           <div className="relative rounded-2xl overflow-hidden shadow-2xl max-w-4xl mx-auto">
             <img 
-              src="/lovable-uploads/68ce78bf-80b2-413d-9177-4328c3754cc1.png" 
+              src="https://res.cloudinary.com/dlpqbgdax/image/upload/v1754048636/6_jhw8ho.jpg" 
               alt="Shakti Shanti Academy Building"
               className="w-full h-[400px] md:h-[500px] object-cover"
             />

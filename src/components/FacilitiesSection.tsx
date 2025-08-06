@@ -4,19 +4,19 @@ import { BookOpen, Microscope, Monitor, TreePine, Utensils, Bus } from "lucide-r
 const FacilitiesSection = () => {
   const facilities = [
     {
-      image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      image: "https://res.cloudinary.com/dlpqbgdax/image/upload/v1754049053/4_twe83j.jpg",
       icon: <BookOpen className="text-primary-foreground" size={28} />,
       title: "Modern Library",
       description: "Well-stocked library with over 10,000 books, digital resources, and quiet study areas."
     },
     {
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80",
+      image: "https://res.cloudinary.com/dlpqbgdax/image/upload/v1754049051/phy-lab-3_eh7lgt.png",
       icon: <Microscope className="text-primary-foreground" size={28} />,
       title: "Science Laboratories",
       description: "Well-equipped labs for physics, chemistry, biology, and computer science."
     },
     {
-      image: "https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      image: "https://res.cloudinary.com/dlpqbgdax/image/upload/v1754049040/computer-lab-webpage_fxbsqb.png",
       icon: <Monitor className="text-primary-foreground" size={28} />,
       title: "Smart Classrooms",
       description: "Interactive whiteboards, projectors, and modern educational technology."
@@ -28,7 +28,7 @@ const FacilitiesSection = () => {
       description: "Basketball courts, football field, indoor gymnasium, and yoga studio."
     },
     {
-      image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80",
+      image: "https://res.cloudinary.com/dlpqbgdax/image/upload/v1754049047/7_nrjbug.jpg",
       icon: <Bus className="text-primary-foreground" size={28} />,
       title: "Transportation",
       description: "Safe and reliable bus service covering major routes across the city."
