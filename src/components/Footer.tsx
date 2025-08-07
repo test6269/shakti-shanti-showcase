@@ -86,15 +86,15 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <Mail size={16} className="text-primary" />
-                <span className="text-muted-foreground text-sm">info@shaktishantiacademy.edu</span>
+                <span className="text-muted-foreground text-sm">ssa.ami1998@gmail.com</span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone size={16} className="text-primary" />
                 <span className="text-muted-foreground text-sm">+91 98765 43210</span>
               </div>
               <div className="text-muted-foreground text-sm">
-                123 Education Street<br />
-                Knowledge Park, Learning City
+                Ambika Sthan, Ami<br />
+                Saran (Bihar) - 841207
               </div>
             </div>
           </div>
